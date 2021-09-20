@@ -1,0 +1,52 @@
+.todo {
+  background: white;
+  margin: 0.5rem;
+  font-size: 1.5rem;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 1s ease;
+  border-radius: 10px;
+
+}
+.todo li {
+  flex: 1;
+  margin: 0rem 4rem 0rem 1rem;
+}
+
+.fa-trash,
+.fa-check {
+  pointer-events: none;
+}
+.fall {
+  transform: translateY(10rem) rotateZ(20deg);
+  opacity: 0;
+}
+
+.completed{
+    text-decoration: line-through;
+    opacity: 0.6;
+    color: cornflowerblue;
+}
+.todo_item{
+    padding:  0.5rem;
+}
+.trash_btn{
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius:  0 10px 10px 0
+
+}
+.complete_btn{
+    background: rgb(11,212,169);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 1rem;
+}
